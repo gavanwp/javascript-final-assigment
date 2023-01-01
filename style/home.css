@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f2f5;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+#navbar {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 30%;
+  background-color: white;
+  border-radius: 6px;
+}
+#navbar > div {
+  background-color: white;
+}
+#navbar > div > h1 {
+  font-size: 18px;
+}
