@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="../style/friends.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <script src="../javascript/friends.js"></script>
+    <div id="main">
+        <div id="navbaR">
+            <div class="box">
+                <img src="../images/house-black-silhouette-without-door.png" alt="" onclick="home()">
+            </div>
+            <div class="box">
+                <img src="../images/friends.png" onclick="friends(window.location.assign('friends.html'))" alt="">
+            </div>
+            <div class="box">
+                <img src="../images/video-camera.png" alt="">
+            </div>
+            <div class="box">
+                <img src="../images/plus (1).png" alt="">
+            </div>
+            <div class="box">
+                <img src="../images/avatar (1).png" alt="">
+            </div>
+            <div class="box">
+
+                <img src="../images/logout (1).png" alt="">
+            </div>
+        </div>
+        <!-- <div id="mainpage">
+            <div id="postload">
+
+                <img src="../images/512X512.gif" alt="">
+                <h2 id="message">Data not available </h2>
+            </div>
+        </div> -->
+        <!-- <div class="friendslist">
+            <div id="friends">
+                <div id="profile">
+                    <img src="../images/user.png" alt="">
+                </div>
+                <div id="username">
+                    <h1>Gavan Kumar</h1>
+                    <p>1/Jan/2023</p>
+                </div>
+
+            </div>
+        </div> -->
+        <div id="allfriends">
+            <div class="accordion accordion-flush" id="accordionFlushExample hello ">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <div class="friendslist">
+                            <div id="friends">
+                                <div id="profile">
+                                    <img src="../images/user.png" alt="">
+                                </div>
+                                <div id="username">
+                                    <h1>Gavan Kumar</h1>
+                                    <p>1/Jan/2023</p>
+                                </div>
+
+                            </div>
+                            <div>
+                                <button class="accordion-button collapsed" id="button" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                </button>
+                            </div>
+                        </div>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body" id="accordionbd">
+                     
+                                <img src="../images/Fashion-Designing-Short-Courses-In-Karachi.gif" alt="">
+                          
+                            <div id="profilebox">
+                                <img src="../images/user.png" alt="">
+                            </div>
+                            <h3>Gavan kumar</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

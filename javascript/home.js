@@ -1,3 +1,3 @@
-function hello(a) {
-    alert("hello")
+let friends = ()=>{
+    window.location.assign("../pages/friends.html")
 }

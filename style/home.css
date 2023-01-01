@@ -13,6 +13,7 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
+
 #navbar {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -105,6 +106,7 @@ body {
 }
 #postload > img {
   width: 50px;
+  margin-top: 20px;
 }
 #message {
   display: none;
@@ -121,7 +123,11 @@ body {
   /* height: 80px; */
   background-color: white;
   border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin-bottom: 20px;
+  scroll-behavior: auto;
 }
+
 #posthead {
   width: 100%;
   display: flex;
@@ -157,10 +163,59 @@ body {
 }
 
 /* Post foooter  */
-#postfooter{
-  width: 100%;
+#postfooter {
+  width: 96%;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like > img {
+  width: 20px;
+  margin-right: 5px;
+}
+/* Comment section */
+#comment{
+  width: 96%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  
+}
+#inputcommit>input{
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+
+  margin-left: 10px;
+  background-color: #f0f2f5;
+  outline: none;
+  padding-left: 10px;
+}
+#inputcommit>input::placeholder{
+  padding: 10px;
+  color: black;
+  font-weight: 400;
+}
+#sharebutton{
+  width: 40px ;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #F0F2F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sharebutton>img{
+width: 20px;
 }
