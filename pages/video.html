@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="stylesheet" href="../style/videos.css">
+
+
+</head>
+
+<body>
+    <script src="../javascript/friends.js"></script>
+    <div id="main">
+        <div id="navbaR">
+            <div class="box">
+                <img src="../images/house-black-silhouette-without-door.png" alt="" onclick="home()">
+            </div>
+            <div class="box">
+                <img src="../images/friends.png" onclick="friends(window.location.assign('friends.html'))" alt="">
+            </div>
+            <div class="box">
+                <img src="../images/video-camera.png" alt="">
+            </div>
+            <div class="box">
+                <img src="../images/plus (1).png" alt="">
+            </div>
+            <div class="box">
+                <img src="../images/avatar (1).png" alt="">
+            </div>
+            <div class="box">
+
+                <img src="../images/logout (1).png" alt="">
+            </div>
+        </div>
+        <!-- <div id="maiNpage">
+            <img src="../images/512X512.gif" alt="">
+            <h2 id="message">Data not available </h2>
+        </div> -->
+        <!-- Show Video Posts -->
+
+        <div id="post">
+            <div id="posthead">
+                <div id="profile">
+                    <img src="../images/user.png" alt="">
+                </div>
+                <div id="username">
+                    <h1>Gavan Kumar</h1>
+                    <p>1/Jan/2023</p>
+                </div>
+            </div>
+            <div id="postbody">
+                <div id="paragraph">
+                    <p>Software engineering is focused on the practical aspects of building and maintaining software
+                        systems. This includes tasks such as designing and implementing software, testing and debugging
+                        code, and working with users to understand their needs and develop software that meets those
+                        needs. Software engineers typically work on teams to develop and maintain software for a variety
+                        of purposes, including web applications, mobile apps, and systems software.</p>
+                </div>
+                <div id="img">
+                    <!-- <img src="../images/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.webp"
+                        alt=""> -->
+                        <video width="100%" height="240" controls>
+                            <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                          </video>
+                </div>
+            </div>
+            <div id="postfooter">
+                <div class="like">
+                    <img src="../images/like.png" alt="">
+                    <span>Like</span>
+                </div>
+                <div class="like">
+                    <img src="../images/dislike.png" alt="">
+                    <span>Dislike</span>
+                </div>
+                <div class="like">
+                    <img src="../images/chat.png" alt="">
+                    <span>Comment</span>
+                </div>
+            </div>
+            <!-- commment  -->
+            <div id="comment">
+                <div id="inputcommit">
+                    <input type="text" placeholder="Write Comment......">
+                </div>
+                <div id="sharebutton">
+                    <img src="../images/send.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
